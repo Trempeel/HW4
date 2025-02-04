@@ -1,0 +1,58 @@
+:root {
+   --siniy: #2196F3;
+   --cherniy: #000000;
+   --seriy: #212121;
+   --seriychik: #757575;
+   --bely: #FFFFFF;
+   --seriyniy: #2F303A;
+}
+
+
+
+.web {
+   color:var(--siniy) ;
+}
+.studio {
+   color:var(--cherniy)
+}
+.header-item {
+   color: var(--seriy);
+}
+.header-item-2 {
+   color: var(--seriychik);
+}
+.none {
+   display: none;
+}
+button {
+   background-color: var(--siniy);
+}
+.h1 {
+   color: var(--bely);
+   background-color: var(--seriyniy);
+}
+.peshka {
+   color: var(--seriychik);
+}
+.ashka3 {
+   color: var(--seriy);
+}
+.header-item:hover {
+   color: var(--siniy);
+}
+.header-item-2:hover {
+   color: var(--siniy);
+}
+.peshka0 {
+   color: var(--seriychik);
+}
+.spesok {
+   color: var(--cherniy);
+   background-color: #F5F4FA;
+}
+.spesok:hover {
+   color: var(--siniy);
+}
+footer{
+   background-color: var(--seriyniy);
+}
