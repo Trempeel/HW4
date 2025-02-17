@@ -1,3 +1,32 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+
 :root {
    --siniy: #2196F3;
    --cherniy: #000000;
@@ -5,37 +34,89 @@
    --seriychik: #757575;
    --bely: #FFFFFF;
    --seriyniy: #2F303A;
+   --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
 }
 
 
 
 .web {
    color:var(--siniy) ;
+   font-family: var(--second-family);
+   font-weight: 700;
+   font-size: 26px;
+   letter-spacing: 0.03em;
 }
 .studio {
-   color:var(--cherniy)
+   color:var(--cherniy) ;
+   font-family: var(--second-family);
+   font-weight: 700;
+   font-size: 26px;
+   letter-spacing: 0.03em;
 }
 .header-item {
    color: var(--seriy);
+   font-family: var(--font-family);
+   font-weight: 500;
+   font-size: 16px;
+   letter-spacing: 0.02em;
+   width: 281px;
+   height: 19px;
 }
 .header-item-2 {
    color: var(--seriychik);
+   font-family: var(--font-family);
+   font-weight: 500;
+   font-size: 14px;
+   letter-spacing: 0.02em;
+   width: 122px;
+   height: 16px;
 }
 .none {
    display: none;
 }
 button {
    background-color: var(--siniy);
+   color: var(--bely);
+   width: 216px;
+   height: 50px;
+   font-family: var(--font-family);
+   font-family: var(--font-family);
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 187%;
+   letter-spacing: 0.06em;
+   text-align: center;
+
 }
 .h1 {
    color: var(--bely);
    background-color: var(--seriyniy);
+   font-family: var(--font-family);
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 136%;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+   text-align: center;
+   width: 696px;
+   height: 120px;
 }
 .peshka {
    color: var(--seriychik);
+   font-family: var(--font-family);
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 171%;
+   letter-spacing: 0.03em;
 }
 .ashka3 {
    color: var(--seriy);
+   font-family: var(--font-family);
+   font-weight: 700;
+   font-size: 14px;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
 }
 .header-item:hover {
    color: var(--siniy);
@@ -45,6 +126,11 @@ button {
 }
 .peshka0 {
    color: var(--seriychik);
+   font-family: var(--font-family);
+   font-weight: 400;
+   font-size: 16px;
+   letter-spacing: 0.03em;
+   text-align: center;
 }
 .spesok {
    color: var(--cherniy);
@@ -55,4 +141,36 @@ button {
 }
 footer{
    background-color: var(--seriyniy);
+}
+.wdwd {
+   font-family: var(--font-family);
+   font-weight: 700;
+   font-size: 36px;
+   letter-spacing: 0.03em;
+   text-align: center;
+}
+.ot {
+   font-family: var(--font-family);
+   font-weight: 700;
+   font-size: 36px;
+   letter-spacing: 0.03em;
+   text-align: center;
+}
+.ashka3-0 {
+   font-family: var(--font-family);
+   font-weight: 500;
+   font-size: 16px;
+   letter-spacing: 0.03em;
+   text-align: center;
+}
+.wd-li {
+   text-align: center;
+}
+.peshka-bottom {
+   font-family: var(--font-family);
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 171%;
+   letter-spacing: 0.03em;
+   color: var(--bely);
 }
